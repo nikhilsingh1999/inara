@@ -31,12 +31,12 @@ export const projectsData: Record<string, ProjectData> = {
     ],
     story:
       "L'Ambre is an architectural tribute to warmth, velvet textures, and gold accents. Located in Banjara Hills, the design balances deep charcoal backdrops with amber-tinted fixtures to construct a dramatic dining setting. Private booths are partitioned using custom brass panels that block direct views while maintaining structural openness.",
-    image: '/assets/photo_6082399343500529731_y.jpg',
+    image: '/assets/photo_6082399343500529737_y.jpg',
     video: '/assets/document_6082399343040535870.mp4',
     gallery: [
-      '/assets/photo_6082399343500529737_y.jpg',
       '/assets/photo_6082399343500529738_y.jpg',
       '/assets/photo_6082399343500529739_y.jpg',
+      '/assets/photo_6084651143314214736_y.jpg',
     ],
     timeline: [
       { phase: 'Ventilation & Restaurant Extraction Fitting', duration: 'Month 1-2' },
@@ -127,9 +127,10 @@ export const projectsData: Record<string, ProjectData> = {
     ],
     story:
       'A multi-level corporate office designed for flexible workflows. We integrated glassmorphic partitions, acoustic felt panel walls, and ergonomic bespoke desks. The project expresses professionalism with minimalist borders and luxury accents, optimizing light penetration into workspace zones.',
-    image: '/assets/photo_6082399343500529760_y.jpg',
+    image: '/assets/workspace_prism_hub_main.png',
     video: '/assets/document_6084848904623366022.mp4',
     gallery: [
+      '/assets/photo_6082399343500529760_y.jpg',
       '/assets/photo_6082399343500529757_y.jpg',
       '/assets/photo_6082399343500529758_y.jpg',
       '/assets/photo_6082399343500529759_y.jpg',

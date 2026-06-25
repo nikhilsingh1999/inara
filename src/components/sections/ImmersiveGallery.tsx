@@ -28,7 +28,7 @@ export default function ImmersiveGallery() {
       id: 1,
       title: "L'Ambre Velvet Dining Booths",
       category: 'Restaurants',
-      image: '/assets/photo_6082399343500529731_y.jpg',
+      image: '/assets/photo_6082399343500529738_y.jpg',
       aspect: 'aspect-[3/4]',
     },
     {
@@ -70,7 +70,7 @@ export default function ImmersiveGallery() {
       id: 7,
       title: 'The Prism Hub Glassmorphic Workspaces',
       category: 'Workspaces',
-      image: '/assets/photo_6082399343500529760_y.jpg',
+      image: '/assets/workspace_prism_hub_main.png',
       aspect: 'aspect-[4/3]',
     },
     {

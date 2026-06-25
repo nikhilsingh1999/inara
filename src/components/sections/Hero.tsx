@@ -6,7 +6,6 @@ import gsap from 'gsap';
 
 export default function Hero() {
   const containerRef = useRef<HTMLDivElement>(null);
-  const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
     // Fade-in cinematic animation using GSAP
@@ -45,22 +44,13 @@ export default function Hero() {
       ref={containerRef}
       className="relative h-screen w-full flex items-center justify-start overflow-hidden bg-charcoal select-none"
     >
-      {/* Video Loop Background */}
+      {/* Editorial Image Background */}
       <div className="absolute inset-0 z-0 overflow-hidden">
-        <video
-          ref={videoRef}
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="absolute min-w-full min-h-full w-auto h-auto top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 object-cover opacity-50 transition-opacity duration-1000"
-          poster="/assets/photo_6082399343500529731_y.jpg"
-        >
-          <source
-            src="/assets/document_6082399343040535870.mp4"
-            type="video/mp4"
-          />
-        </video>
+        <img
+          src="/assets/hero_bg.jpg"
+          alt="INARA Luxury Commercial Interior Design Hyderabad"
+          className="absolute min-w-full min-h-full w-full h-full object-cover opacity-60"
+        />
         {/* Editorial gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-charcoal via-charcoal/40 to-charcoal/60" />
       </div>

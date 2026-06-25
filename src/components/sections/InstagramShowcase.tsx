@@ -6,7 +6,7 @@ export default function InstagramShowcase() {
   const posts = [
     {
       id: 1,
-      image: '/assets/photo_6082399343500529731_y.jpg',
+      image: '/assets/photo_6084651143314214726_y.jpg',
       likes: '1.2K',
       comments: '88',
       aspect: 'aspect-[3/4]',

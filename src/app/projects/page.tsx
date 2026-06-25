@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: 'https://inara.studio/projects',
     images: [
       {
-        url: 'https://inara.studio/assets/photo_6082399343500529731_y.jpg',
+        url: 'https://inara.studio/assets/photo_6082399343500529747_y.jpg',
         width: 1200,
         height: 630,
         alt: 'INARA Commercial Interior Design Portfolio',
